@@ -1,0 +1,42 @@
+ENTERPRISE HEALTH CLAIM PACKET - COVER SHEET
+
+Claimant Name: Jane Doe
+Policy Number: POL-1001
+Claim Amount: $12,400.00
+Date of Service: 2026-08-10
+Provider: Metro General Hospital
+Admission Type: Emergency inpatient
+
+Claimant statement: I am requesting reimbursement for the hospitalization described in the attached provider documents.
+
+This is synthetic demonstration data only.
+
+===== PAGE BREAK =====
+
+PROVIDER BILLING SUMMARY
+
+Patient Name: Jane A. Doe
+Policy Number: POL-2002
+Requested reimbursement: $13,150.00
+Hospital Charges: $14,800.00
+Contractual Adjustment: $1,650.00
+Date of Service: 2026-08-10
+
+Billing note: The policy identifier above was copied from the provider registration system. Please verify against the member claim form before payment.
+
+This is synthetic demonstration data only.
+
+===== PAGE BREAK =====
+
+CASE INTAKE NOTES
+
+The cover sheet and provider billing summary do not agree on the policy number or requested reimbursement amount.
+
+The cover sheet identifies POL-1001 and $12,400.00.
+The provider billing summary identifies POL-2002 and $13,150.00.
+
+The patient name is shown as Jane Doe on the cover sheet and Jane A. Doe on the provider document.
+
+Human reconciliation is required before any final correspondence is released.
+
+This is synthetic demonstration data only.

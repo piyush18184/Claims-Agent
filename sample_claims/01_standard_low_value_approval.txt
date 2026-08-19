@@ -1,0 +1,12 @@
+HEALTH INSURANCE CLAIM FORM
+
+Claimant Name: Jane Doe
+Policy Number: POL-1001
+Claim Amount: $4,250.00
+Date of Service: 2026-07-14
+Provider: Northside Medical Center
+Reason: Emergency outpatient treatment following a minor road accident.
+
+The claimant requests reimbursement under the active policy above.
+
+This is synthetic demonstration data only.

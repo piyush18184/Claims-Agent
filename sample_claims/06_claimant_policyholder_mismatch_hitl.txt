@@ -1,0 +1,12 @@
+HEALTH CLAIM SUBMISSION
+
+Claimant Name: Robert Miles
+Policy Number: POL-1001
+Claim Amount: $4,800.00
+Date of Service: 2026-08-04
+Provider: Green Valley Hospital
+Reason: Emergency room consultation and imaging.
+
+Declaration: The claimant certifies that the policy number above is the applicable policy for this request.
+
+This is synthetic demonstration data only.

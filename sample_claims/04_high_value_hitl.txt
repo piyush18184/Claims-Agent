@@ -1,0 +1,14 @@
+HEALTH INSURANCE CLAIM FORM
+
+Claimant Name: Jane Doe
+Policy Number: POL-1001
+Claim Amount: $18,750.00
+Date of Service: 2026-07-14
+Provider: Northside Medical Center
+Reason: Emergency surgery and hospitalization.
+
+Supporting note: The submitted amount is within the policy coverage limit.
+
+The claimant requests reimbursement under the active policy above.
+
+This is synthetic demonstration data only.

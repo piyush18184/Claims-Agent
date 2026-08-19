@@ -1,0 +1,12 @@
+CLAIM REIMBURSEMENT REQUEST
+
+Claimant Name: Maya Chen
+Policy Number: POL-7777
+Claim Amount: $5,900.00
+Date of Service: 2026-08-02
+Provider: Riverside Diagnostics
+Reason: Diagnostic imaging and specialist consultation.
+
+Please process reimbursement against the policy number listed above.
+
+This is synthetic demonstration data only.

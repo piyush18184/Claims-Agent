@@ -1,0 +1,66 @@
+[
+  {
+    "id": "01",
+    "slug": "standard_low_value_approval",
+    "title": "Level 1 - Standard Low-Value Claim",
+    "complexity": "Low",
+    "expected": "APPROVE; no HITL; approval draft generated",
+    "why": "All required fields are present, policy is active, claimant matches, amount is within coverage, and amount is below $10,000."
+  },
+  {
+    "id": "02",
+    "slug": "inactive_policy_rejection",
+    "title": "Level 2 - Inactive Policy",
+    "complexity": "Low-Medium",
+    "expected": "REJECT; normally no HITL; rejection draft generated",
+    "why": "Claimant and policy match, but POL-3003 is INACTIVE in the demo policy database."
+  },
+  {
+    "id": "03",
+    "slug": "unknown_policy_rejection",
+    "title": "Level 3 - Unknown Policy Number",
+    "complexity": "Medium",
+    "expected": "REJECT; normally no HITL unless extraction confidence falls below 75%",
+    "why": "The document is internally consistent, but POL-7777 does not exist in the demo policy database."
+  },
+  {
+    "id": "04",
+    "slug": "high_value_hitl",
+    "title": "Level 4 - High-Value Claim",
+    "complexity": "Medium",
+    "expected": "System recommendation APPROVE; HITL required because amount > $10,000",
+    "why": "All policy checks pass, but $18,750 exceeds the configured human-review threshold."
+  },
+  {
+    "id": "05",
+    "slug": "conflicting_policy_numbers_hitl",
+    "title": "Level 5 - Conflicting Policy Numbers",
+    "complexity": "Medium-High",
+    "expected": "REVIEW; HITL required because two policy numbers conflict",
+    "why": "The cover sheet references POL-2002 while the supporting statement references POL-9999."
+  },
+  {
+    "id": "06",
+    "slug": "claimant_policyholder_mismatch_hitl",
+    "title": "Level 6 - Claimant / Policyholder Mismatch",
+    "complexity": "High",
+    "expected": "REVIEW; HITL required because claimant conflicts with policyholder",
+    "why": "POL-1001 belongs to Jane Doe in the demo policy DB, but the document lists Robert Miles as claimant."
+  },
+  {
+    "id": "07",
+    "slug": "incomplete_claim_low_confidence",
+    "title": "Level 7 - Incomplete / Ambiguous Claim",
+    "complexity": "High",
+    "expected": "REJECT or REVIEW; likely HITL if extraction confidence <75%",
+    "why": "The document omits a clear claimant name and uses a partial policy reference, exercising missing-field and low-confidence handling."
+  },
+  {
+    "id": "08",
+    "slug": "complex_multi_page_enterprise_exception",
+    "title": "Level 8 - Complex Multi-Page Enterprise Claim Packet",
+    "complexity": "Very High",
+    "expected": "REVIEW; HITL required for high value + conflicting policy IDs (and potentially other conflicts)",
+    "why": "The packet contains different policy IDs, different submitted amounts, and a name variation across sections, while also exceeding $10,000."
+  }
+]

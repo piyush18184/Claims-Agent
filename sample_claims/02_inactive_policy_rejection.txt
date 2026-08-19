@@ -1,0 +1,12 @@
+HEALTH INSURANCE CLAIM FORM
+
+Claimant Name: Priya Shah
+Policy Number: POL-3003
+Claim Amount: $3,200.00
+Date of Service: 2026-07-21
+Provider: CityCare Clinic
+Reason: Outpatient diagnostic procedure and follow-up consultation.
+
+The claimant requests reimbursement under the policy shown above.
+
+This is synthetic demonstration data only.

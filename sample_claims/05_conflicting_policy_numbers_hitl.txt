@@ -1,0 +1,17 @@
+INSURANCE CLAIM PACKET
+
+COVER SHEET
+Claimant Name: Robert Miles
+Policy Number: POL-2002
+Claim Amount: $7,600.00
+Date of Service: 2026-08-01
+
+SUPPORTING CLINICAL STATEMENT
+Patient Name: Robert Miles
+Policy Number: POL-9999
+Requested reimbursement: $7,600.00
+Reason: Diagnostic procedure and follow-up care.
+
+Caseworker note: Please reconcile the policy identifier before final disposition.
+
+This is synthetic demonstration data only.
